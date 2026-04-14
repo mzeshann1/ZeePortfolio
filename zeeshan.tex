@@ -1,0 +1,261 @@
+%-------------------------
+% ATS-Optimized Resume - Muhammad Zeeshan
+% Format: Clean single-column LaTeX, ATS-friendly
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% ATS Unicode compliance
+\pdfgentounicode=1
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Muhammad Zeeshan} \\ \vspace{4pt}
+    \small
+    \href{mailto:mzeshann1@gmail.com}{mzeshann1@gmail.com} $|$
+    +923042463443 $|$
+    \href{https://github.com/}{GitHub} $|$
+    \href{https://linkedin.com/}{LinkedIn}
+\end{center}
+
+%---------- SUMMARY ----------
+\section{Summary}
+\small{
+Software Engineer with hands-on experience building scalable web and SaaS applications, e-commerce platforms, and RESTful APIs. Strong background in backend development, database optimization, and third-party service integrations. Skilled at translating business requirements into practical, maintainable technical solutions. Currently expanding into Python automation, scripting, and cloud integrations.
+}
+
+%---------- EDUCATION ----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Government College University, Faisalabad}{Faisalabad, Pakistan}
+      {Bachelor of Science in Information Technology}{2020 -- 2024}
+      \resumeItemListStart
+        \resumeItem{CGPA: 3.56 / 4.0}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%---------- EXPERIENCE ----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Associate Software Engineer}{November 2024 -- Present}
+      {FTS-I Solutions}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Developing enterprise Laravel applications with RBAC systems, task management, and financial dashboards}
+        \resumeItem{Building full-stack applications with React frontends, integrating complex APIs including Storefeeder and payment gateways}
+        \resumeItem{Architecting multi-tenant NestJS SaaS platform using microservices patterns and Docker containerization}
+        \resumeItem{Implementing AWS S3 bucket integration for secure file storage and retrieval in enterprise applications}
+        \resumeItem{Creating Python utility scripts for data processing and backend automation tasks}
+        \resumeItem{Collaborating with cross-functional teams to deliver data-driven features and dashboards}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {WordPress Developer}{July 2024 -- October 2024}
+      {DevsSpace}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Designed and developed responsive websites and e-commerce platforms with integrated payment gateways (Stripe, PayPal)}
+        \resumeItem{Implemented WooCommerce integrations and custom WordPress plugins for enhanced functionality}
+        \resumeItem{Conducted performance audits and security assessments, reducing vulnerabilities by 40\%}
+        \resumeItem{Created detailed performance reports and documentation for stakeholder analysis}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Web Developer}{March 2023 -- December 2023}
+      {Career Institute Faisalabad}{Faisalabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Developed multiple front-end and back-end projects using Laravel and JavaScript frameworks}
+        \resumeItem{Optimized database queries and API integrations, improving application performance by 25\%}
+        \resumeItem{Utilized Git version control in a collaborative team environment for code quality and project tracking}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Backend Developer}{November 2022 -- February 2023}
+      {Corvit Systems}{Faisalabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Built interactive dashboards and data management systems using Laravel MVC architecture}
+        \resumeItem{Implemented role-based access control (RBAC) systems for secure user authentication}
+        \resumeItem{Enhanced data processing efficiency by 25\% through optimized backend solutions}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {WordPress Developer}{July 2023 -- February 2024}
+      {Career Institute Faisalabad}{Faisalabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Customized WordPress themes and plugins for client requirements and enhanced user experience}
+        \resumeItem{Managed WordPress sites including e-commerce platforms with WooCommerce integrations}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Development Trainee}{March 2022 -- September 2022}
+      {Career Institute Faisalabad}{Faisalabad, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Completed comprehensive 6-month training in HTML, CSS, JavaScript, Bootstrap, and PHP}
+        \resumeItem{Gained foundational knowledge in front-end design and backend development}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%---------- PROJECTS ----------
+\section{Key Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Multi-Tenant SaaS Platform} $|$ \emph{NestJS, PostgreSQL, Docker, Microservices}}{}
+      \resumeItemListStart
+        \resumeItem{Architecting scalable backend with isolated data schemas and tenant-specific configurations}
+        \resumeItem{Implementing authentication, authorization, and API rate limiting for enterprise-grade security}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{RBAC System \& Task Management (Jira Clone)} $|$ \emph{Laravel, React, MySQL}}{}
+      \resumeItemListStart
+        \resumeItem{Built comprehensive RBAC system with granular permission management}
+        \resumeItem{Developed task management system with sprint planning and real-time collaboration features}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{E-Commerce Dashboard with Storefeeder Integration} $|$ \emph{Laravel, React, Storefeeder API, Chart.js}}{}
+      \resumeItemListStart
+        \resumeItem{Integrated Storefeeder API for multi-channel inventory synchronization}
+        \resumeItem{Created intuitive dashboards with real-time analytics for business insights}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Accounting \& Bookkeeping System} $|$ \emph{Laravel, MySQL, Chart.js}}{}
+      \resumeItemListStart
+        \resumeItem{Implemented double-entry bookkeeping principles and financial reconciliation}
+        \resumeItem{Generated financial reports, balance sheets, and income statements}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{BigBazaar E-Commerce Platform} $|$ \emph{Laravel, WooCommerce, Payment Gateways}}{}
+      \resumeItemListStart
+        \resumeItem{Developed complete e-commerce solution with secure checkout and order management}
+        \resumeItem{Integrated Stripe and PayPal payment gateways for multiple payment options}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{AWS S3 File Upload Automation} $|$ \emph{Python, Boto3, AWS S3}}{}
+      \resumeItemListStart
+        \resumeItem{Developed Python script using Boto3 to automate file uploads to AWS S3 buckets}
+        \resumeItem{Implemented error handling and logging for reliable file management in production environments}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{CSV Data Processor Script} $|$ \emph{Python, Pandas, File I/O}}{}
+      \resumeItemListStart
+        \resumeItem{Created Python utility for reading, cleaning, and transforming CSV files}
+        \resumeItem{Used Pandas for efficient data manipulation and business data export}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{File Organization Automation} $|$ \emph{Python, OS Module}}{}
+      \resumeItemListStart
+        \resumeItem{Built Python script that automatically organizes files into folders based on file type and date}
+        \resumeItem{Implemented batch processing for handling large file directories}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{TwistTalk Community Platform} $|$ \emph{Laravel, MySQL, Bootstrap}}{}
+      \resumeItemListStart
+        \resumeItem{Created community engagement platform with nested comments and user interactions}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%---------- TECHNICAL SKILLS ----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Backend:} Laravel, PHP, NestJS, RESTful APIs \\
+     \textbf{Frontend:} React, HTML5, CSS3, Bootstrap, JavaScript \\
+     \textbf{Database:} MySQL, PostgreSQL, Query Optimization \\
+     \textbf{Python:} Scripting, Automation, Boto3, Pandas, Schedule Library \\
+     \textbf{Cloud \& DevOps:} AWS (S3, EC2), Docker, Git, Postman \\
+     \textbf{E-Commerce:} WooCommerce, Payment Gateways (Stripe, PayPal), API Integration \\
+     \textbf{Other:} Agile Development, RBAC Systems, Microservices, Dashboard Design (Chart.js)
+    }}
+ \end{itemize}
+
+%---------- CERTIFICATIONS ----------
+\section{Certifications \& Achievements}
+  \resumeSubHeadingListStart
+    \resumeItem{Certificate in IT (CIT) -- National Vocational and Technical Training Commission (NAVTTC), Government of Pakistan}
+    \resumeItem{Certificate in WordPress and PHP Advancement -- Udemy}
+    \resumeItem{Certificate in Inter Department Speed Programming -- Department of IT, GCUF}
+    \resumeItem{\textbf{First Place} -- CODE CRUD Inter-Department Coding Competition (Web Development \& Speed Programming), GCUF}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
