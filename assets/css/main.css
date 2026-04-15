@@ -799,12 +799,22 @@ section,
 
 .hero .hero-image {
   position: relative;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .hero .hero-image img {
   position: relative;
   z-index: 2;
+  max-width: 100%;
+  width: 400px;   /* controls size */
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 15%;
+  top: -20px;
+  right: -20px;
 }
 
 .hero .hero-image .shape-1,
@@ -885,14 +895,39 @@ section,
 }
 
 .about .about-content {
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
-@media (max-width: 991.98px) {
-  .about .about-content {
-    padding-left: 0;
-    margin-top: 3rem;
+.about .about-split .about-content-left {
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  .about .about-split .about-content-left {
+    padding-right: 1.5rem;
+    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
   }
+
+  .about .about-split .about-content-right {
+    padding-left: 1.5rem;
+  }
+}
+
+.about .about-details-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.about .about-signature-card {
+  padding: 1.25rem 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
 }
 
 .about .about-content .subtitle {
@@ -923,6 +958,10 @@ section,
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 }
 
+.about .about-content-right .personal-info {
+  margin-top: 0;
+}
+
 .about .personal-info .info-item {
   display: flex;
   flex-direction: column;
@@ -948,7 +987,6 @@ section,
 .about .signature .signature-image {
   max-width: 150px;
 }
-
 .about .signature .signature-info h4 {
   font-size: 1.25rem;
   margin-bottom: 0.25rem;
