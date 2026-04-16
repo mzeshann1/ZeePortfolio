@@ -81,13 +81,13 @@
 
         <div class="header-social-links">
           <a
-            href="https://github.com/"
+            href="https://github.com/mzeshann1"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="bi bi-github"></i
           ></a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/muhammad-zeeshan-a40446200/"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="bi bi-linkedin"></i
@@ -495,7 +495,7 @@
                 <div class="resume-block" data-aos="fade-up">
                   <h2>Work Experience</h2>
                   <p class="lead">
-                    Over 4 years of professional experience across multiple
+                    Over 2+ years of professional experience across multiple
                     roles — from backend development and WordPress customization
                     to full-stack engineering and SaaS architecture.
                   </p>
@@ -774,6 +774,7 @@
                 <li data-filter="*" class="filter-active">All Projects</li>
                 <li data-filter=".filter-fullstack">Full Stack</li>
                 <li data-filter=".filter-ecommerce">E-Commerce</li>
+                <li data-filter=".filter-frontend">Frontend</li>
                 <li data-filter=".filter-python">Python</li>
               </ul>
             </div>
@@ -783,328 +784,472 @@
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack"
-              >
-                <div class="portfolio-card">
+
+              <!-- Full Stack: Multi-Tenant SaaS -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="Multi-Tenant SaaS Platform"
+                  data-category="Full Stack"
+                  data-img="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=750&fit=crop"
+                  data-desc="Scalable backend with isolated data schemas, tenant-specific configurations, authentication, authorization, and API rate limiting. Designed to serve multiple organizations from a single codebase while maintaining strict data isolation."
+                  data-tech="NestJS, PostgreSQL, Docker, Redis, Microservices"
+                  data-features="Isolated tenant schemas|Tenant-specific configurations|JWT authentication &amp; RBAC authorization|API rate limiting per tenant|Microservices architecture with Docker|Database migration management per tenant"
+                >
                   <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="Multi-Tenant SaaS Platform"
-                      loading="lazy"
-                    />
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" class="img-fluid" alt="Multi-Tenant SaaS Platform" loading="lazy" />
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
                       </div>
                     </div>
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Full Stack</span>
                     <h3>Multi-Tenant SaaS Platform</h3>
-                    <p>
-                      Scalable backend with isolated data schemas,
-                      tenant-specific configurations, authentication,
-                      authorization, and API rate limiting. Built with NestJS,
-                      PostgreSQL, Docker, and microservices architecture.
-                    </p>
+                    <p>Scalable backend with isolated data schemas, tenant-specific configurations, authentication, authorization, and API rate limiting.</p>
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack"
-              >
-                <div class="portfolio-card">
+              <!-- Full Stack: RBAC / Jira Clone -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="RBAC System &amp; Task Management (Jira Clone)"
+                  data-category="Full Stack"
+                  data-img="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=750&fit=crop"
+                  data-desc="Comprehensive RBAC system with granular permission management. Full-featured task management with sprint planning, kanban boards, and real-time collaboration for agile teams."
+                  data-tech="Laravel, React, MySQL, WebSockets"
+                  data-features="Granular role-based access control|Sprint planning &amp; backlog management|Kanban board with drag-and-drop|Real-time collaboration via WebSockets|Activity logs &amp; audit trail|Team &amp; project management"
+                >
                   <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="RBAC System & Task Management"
-                      loading="lazy"
-                    />
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop" class="img-fluid" alt="RBAC System & Task Management" loading="lazy" />
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
                       </div>
                     </div>
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Full Stack</span>
                     <h3>RBAC System &amp; Task Management (Jira Clone)</h3>
-                    <p>
-                      Comprehensive RBAC system with granular permission
-                      management. Task management with sprint planning and
-                      real-time collaboration. Built with Laravel, React, and
-                      MySQL.
-                    </p>
+                    <p>Comprehensive RBAC system with granular permission management. Task management with sprint planning and real-time collaboration.</p>
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ecommerce"
-              >
-                <div class="portfolio-card">
+              <!-- Full Stack: Accounting System -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="Accounting &amp; Bookkeeping System"
+                  data-category="Full Stack"
+                  data-img="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=750&fit=crop"
+                  data-desc="Double-entry bookkeeping with financial reconciliation, balance sheets, and income statement generation. Automates routine accounting tasks and provides real-time financial insights."
+                  data-tech="Laravel, MySQL, Chart.js, PDF Generation"
+                  data-features="Double-entry bookkeeping engine|Financial reconciliation tools|Balance sheet generation|Income statement &amp; P&amp;L reports|Chart of accounts management|PDF export for financial documents"
+                >
                   <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="E-Commerce Dashboard with Storefeeder"
-                      loading="lazy"
-                    />
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop" class="img-fluid" alt="Accounting & Bookkeeping System" loading="lazy" />
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">E-Commerce</span>
-                    <h3>E-Commerce Dashboard with Storefeeder Integration</h3>
-                    <p>
-                      Multi-channel inventory synchronization via Storefeeder
-                      API with real-time analytics dashboards. Built with
-                      Laravel, React, and Chart.js.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="Accounting & Bookkeeping System"
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
                       </div>
                     </div>
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Full Stack</span>
                     <h3>Accounting &amp; Bookkeeping System</h3>
-                    <p>
-                      Double-entry bookkeeping with financial reconciliation,
-                      balance sheets, and income statement generation. Built
-                      with Laravel, MySQL, and Chart.js.
-                    </p>
+                    <p>Double-entry bookkeeping with financial reconciliation, balance sheets, and income statement generation.</p>
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ecommerce"
-              >
-                <div class="portfolio-card">
+              <!-- Full Stack: TwistTalk -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="TwistTalk Community Platform"
+                  data-category="Full Stack"
+                  data-img="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=750&fit=crop"
+                  data-desc="Community engagement platform with nested comments, user interactions, and threaded discussions. Enables community-driven conversations with moderation tools."
+                  data-tech="Laravel, MySQL, Bootstrap, jQuery"
+                  data-features="Nested threaded comments|User profiles &amp; interaction system|Community moderation tools|Real-time notifications|Content voting &amp; ranking|User reputation system"
+                >
                   <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="BigBazaar E-Commerce Platform"
-                      loading="lazy"
-                    />
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop" class="img-fluid" alt="TwistTalk Community Platform" loading="lazy" />
                     <div class="portfolio-overlay">
                       <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">E-Commerce</span>
-                    <h3>BigBazaar E-Commerce Platform</h3>
-                    <p>
-                      Complete e-commerce solution with secure checkout, order
-                      management, and Stripe/PayPal payment gateway integration.
-                      Built with Laravel and WooCommerce.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="AWS S3 File Upload Automation"
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">Python</span>
-                    <h3>AWS S3 File Upload Automation</h3>
-                    <p>
-                      Automated file uploads to AWS S3 buckets using Boto3 with
-                      error handling and logging for reliable file management in
-                      production environments.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="CSV Data Processor Script"
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">Python</span>
-                    <h3>CSV Data Processor Script</h3>
-                    <p>
-                      Python utility for reading, cleaning, and transforming CSV
-                      files using Pandas for efficient data manipulation and
-                      business data export.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="File Organization Automation"
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="portfolio-content">
-                    <span class="category">Python</span>
-                    <h3>File Organization Automation</h3>
-                    <p>
-                      Automatically organizes files into folders based on file
-                      type and date with batch processing for handling large
-                      directories. Built with Python OS module.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fullstack"
-              >
-                <div class="portfolio-card">
-                  <div class="portfolio-image">
-                    <img
-                      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop"
-                      class="img-fluid"
-                      alt="TwistTalk Community Platform"
-                      loading="lazy"
-                    />
-                    <div class="portfolio-overlay">
-                      <div class="portfolio-actions">
-                        <a
-                          href="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=750&fit=crop"
-                          class="glightbox preview-link"
-                          data-gallery="portfolio-gallery"
-                          ><i class="bi bi-eye"></i
-                        ></a>
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
                       </div>
                     </div>
                   </div>
                   <div class="portfolio-content">
                     <span class="category">Full Stack</span>
                     <h3>TwistTalk Community Platform</h3>
-                    <p>
-                      Community engagement platform with nested comments and
-                      user interactions. Built with Laravel, MySQL, and
-                      Bootstrap.
-                    </p>
+                    <p>Community engagement platform with nested comments and user interactions.</p>
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
+
+              <!-- E-Commerce: Storefeeder Dashboard -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ecommerce">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="E-Commerce Dashboard with Storefeeder Integration"
+                  data-category="E-Commerce"
+                  data-img="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=750&fit=crop"
+                  data-desc="Multi-channel inventory synchronization via Storefeeder API with real-time analytics dashboards. Centralizes order management across multiple sales channels."
+                  data-tech="Laravel, React, Chart.js, Storefeeder API"
+                  data-features="Multi-channel inventory sync|Real-time analytics dashboards|Storefeeder API integration|Order management across channels|Stock level alerts &amp; reporting|Sales performance tracking"
+                >
+                  <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop" class="img-fluid" alt="E-Commerce Dashboard" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">E-Commerce</span>
+                    <h3>E-Commerce Dashboard with Storefeeder Integration</h3>
+                    <p>Multi-channel inventory synchronization via Storefeeder API with real-time analytics dashboards.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- E-Commerce: BigBazaar -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ecommerce">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="BigBazaar E-Commerce Platform"
+                  data-category="E-Commerce"
+                  data-img="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200&h=750&fit=crop"
+                  data-desc="Complete e-commerce solution with secure checkout, order management, and Stripe/PayPal payment gateway integration. Full shopping experience from browsing to delivery."
+                  data-tech="Laravel, WooCommerce, Stripe, PayPal"
+                  data-features="Secure checkout flow|Order tracking &amp; management|Stripe &amp; PayPal payment integration|Product catalog with search &amp; filters|Inventory management|Customer account &amp; order history"
+                >
+                  <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=500&fit=crop" class="img-fluid" alt="BigBazaar E-Commerce" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">E-Commerce</span>
+                    <h3>BigBazaar E-Commerce Platform</h3>
+                    <p>Complete e-commerce solution with secure checkout, order management, and Stripe/PayPal payment gateway integration.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- E-Commerce: NearStore (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ecommerce filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="NearStore E-Commerce"
+                  data-category="E-Commerce"
+                  data-img="assets/img/portfolio/project_4.jpg"
+                  data-mockup="assets/img/portfolio/port4.jpg"
+                  data-desc="A diverse online marketplace delivering electronics, fashion, and home essentials to your doorstep. Features a user-friendly interface, robust search, and secure payment gateways."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/E-Commerce/html/index.html"
+                  data-features="Product categories &amp; catalog|Individual product listings|Shopping cart &amp; secure checkout|User accounts &amp; profiles|Order history &amp; tracking|Customer support"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port4.jpg" class="img-fluid" alt="NearStore E-Commerce" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">E-Commerce</span>
+                    <h3>NearStore E-Commerce</h3>
+                    <p>Full e-commerce marketplace with product catalog, shopping cart, secure checkout, and order management.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frontend: Edumark (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="Edumark Educational Platform"
+                  data-category="Frontend"
+                  data-img="assets/img/portfolio/project_1.png"
+                  data-mockup="assets/img/portfolio/port1.jpg"
+                  data-desc="An educational platform that transcends traditional boundaries. Explore the limitless horizons of knowledge and growth with a dynamic, interactive learning experience."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/Projects/project-1/HTML/project1.html"
+                  data-features="Home page with featured courses|Course browsing &amp; exploration|Detailed course information|Course-related resources &amp; materials|Contact &amp; support"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port1.jpg" class="img-fluid" alt="Edumark Educational Platform" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Frontend</span>
+                    <h3>Edumark Educational Platform</h3>
+                    <p>Interactive educational platform with course catalog, learning resources, and dynamic user experience.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frontend: eBusiness (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="eBusiness Digital Platform"
+                  data-category="Frontend"
+                  data-img="assets/img/portfolio/project_2.jpg"
+                  data-mockup="assets/img/portfolio/port2.jpg"
+                  data-desc="A comprehensive digital platform empowering businesses to thrive online. Offers tools for e-commerce, CRM, inventory management, and seamless payment processing."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/Projects/project-2/HTML/project2.html"
+                  data-features="Home with featured products &amp; services|User account management|Customer support resources|Analytics dashboard|Inventory management|Payment processing"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port2.jpg" class="img-fluid" alt="eBusiness Platform" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Frontend</span>
+                    <h3>eBusiness Digital Platform</h3>
+                    <p>Comprehensive digital platform with e-commerce tools, CRM, inventory management, and payment processing.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frontend: CSOFT Real Estate (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="CSOFT Real Estate Platform"
+                  data-category="Frontend"
+                  data-img="assets/img/portfolio/project_3.jpg"
+                  data-mockup="assets/img/portfolio/port3.jpg"
+                  data-desc="A dynamic web platform revolutionizing real estate. Comprehensive portfolio of listings, property insights, and a user-friendly interface for buying, selling, and leasing properties."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/Projects/project-3/HTML/project3.html"
+                  data-features="Featured property listings|Property search &amp; filters|Detailed property information|Seller &amp; buyer dashboards|Leasing information|Investment resources &amp; analysis"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port3.jpg" class="img-fluid" alt="CSOFT Real Estate" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Frontend</span>
+                    <h3>CSOFT Real Estate Platform</h3>
+                    <p>Dynamic real estate platform with property listings, search filters, buyer/seller dashboards, and investment tools.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frontend: Fox-University (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="Fox-University Learning Platform"
+                  data-category="Frontend"
+                  data-img="assets/img/portfolio/project_5.jpg"
+                  data-mockup="assets/img/portfolio/port5.jpg"
+                  data-desc="A virtual institution fostering a passion for learning and personal growth. Offers courses, workshops, and resources for students of all ages. Engage with expert instructors and explore knowledge."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/Projects/project-5/index.html"
+                  data-features="Course categories &amp; browsing|Detailed course pages|Student enrollment system|Personalized student dashboard|Discussion forums|Learning resources &amp; materials"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port5.jpg" class="img-fluid" alt="Fox-University" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Frontend</span>
+                    <h3>Fox-University Learning Platform</h3>
+                    <p>Virtual institution with course catalog, student dashboards, discussion forums, and learning resources.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frontend: uStora (from old portfolio) -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="uStora Mobile Marketplace"
+                  data-category="Frontend"
+                  data-img="assets/img/portfolio/project_6.jpg"
+                  data-mockup="assets/img/portfolio/port6.jpg"
+                  data-desc="A vibrant online marketplace designed for mobile enthusiasts. Buy, sell, or trade mobile devices with secure payments, detailed listings, and a user-friendly interface."
+                  data-tech="HTML, CSS, JavaScript, Bootstrap"
+                  data-link="https://mzeshann1.github.io/Projects/project-6/index.html"
+                  data-features="Mobile product listings|Detailed device information|Sell or trade your device|Shopping cart &amp; checkout|User accounts &amp; profiles|Order history &amp; tracking"
+                >
+                  <div class="portfolio-image">
+                    <img src="assets/img/portfolio/port6.jpg" class="img-fluid" alt="uStora Marketplace" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Frontend</span>
+                    <h3>uStora Mobile Marketplace</h3>
+                    <p>Online marketplace for mobile devices with buying, selling, trading, and secure payment processing.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Python: AWS S3 -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="AWS S3 File Upload Automation"
+                  data-category="Python"
+                  data-img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=750&fit=crop"
+                  data-desc="Automated file uploads to AWS S3 buckets using Boto3 with comprehensive error handling and logging for reliable file management in production environments."
+                  data-tech="Python, Boto3, AWS S3, Logging"
+                  data-features="Automated S3 bucket uploads|Comprehensive error handling|Detailed logging system|Batch file processing|Environment-based configuration|Production-ready reliability"
+                >
+                  <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=500&fit=crop" class="img-fluid" alt="AWS S3 Automation" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Python</span>
+                    <h3>AWS S3 File Upload Automation</h3>
+                    <p>Automated file uploads to AWS S3 buckets using Boto3 with error handling and logging.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Python: CSV Processor -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="CSV Data Processor Script"
+                  data-category="Python"
+                  data-img="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=750&fit=crop"
+                  data-desc="Python utility for reading, cleaning, and transforming CSV files using Pandas for efficient data manipulation and business data export across multiple formats."
+                  data-tech="Python, Pandas, CSV, Data Processing"
+                  data-features="CSV file reading &amp; parsing|Data cleaning &amp; validation|Data transformation pipelines|Pandas-based manipulation|Multi-format export|Batch processing support"
+                >
+                  <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop" class="img-fluid" alt="CSV Data Processor" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Python</span>
+                    <h3>CSV Data Processor Script</h3>
+                    <p>Python utility for reading, cleaning, and transforming CSV files using Pandas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Python: File Organization -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-python">
+                <div class="portfolio-card project-card" role="button"
+                  data-title="File Organization Automation"
+                  data-category="Python"
+                  data-img="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=750&fit=crop"
+                  data-desc="Automatically organizes files into categorized folders based on file type and date with batch processing capabilities for handling large directories efficiently."
+                  data-tech="Python, OS Module, Shutil, Automation"
+                  data-features="Auto-sort files by type &amp; date|Batch processing for large directories|Configurable folder structure|Duplicate file detection|Detailed operation logging|Scheduled automation support"
+                >
+                  <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=500&fit=crop" class="img-fluid" alt="File Organization" loading="lazy" />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-actions">
+                        <span class="detail-link"><i class="bi bi-arrow-up-right-square"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-content">
+                    <span class="category">Python</span>
+                    <h3>File Organization Automation</h3>
+                    <p>Automatically organizes files into folders based on file type and date with batch processing.</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
             <!-- End Portfolio Container -->
           </div>
         </div>
       </section>
       <!-- /Portfolio Section -->
+
+      <!-- Project Detail Modal -->
+      <div class="modal fade" id="projectDetailModal" tabindex="-1" aria-labelledby="projectDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content project-detail-modal">
+            <div class="modal-header">
+              <div class="modal-header-info">
+                <span class="modal-category" id="modalCategory"></span>
+                <h3 class="modal-title" id="projectDetailModalLabel"></h3>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="project-detail-hero">
+                <img id="modalHeroImg" src="" alt="" class="img-fluid" />
+              </div>
+              <div class="project-detail-body">
+                <div class="row g-4 g-lg-5">
+                  <div class="col-lg-7">
+                    <h4>About This Project</h4>
+                    <p id="modalDesc" class="project-detail-desc"></p>
+                    <div id="modalMockupWrap" class="project-detail-mockup" style="display:none;">
+                      <h4>Full Page Preview</h4>
+                      <div class="mockup-scroll-container">
+                        <img id="modalMockup" src="" alt="Full page preview" class="img-fluid" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="project-detail-info">
+                      <h4>Project Info</h4>
+                      <div class="info-row">
+                        <span class="info-label">Category</span>
+                        <span class="info-value" id="modalInfoCategory"></span>
+                      </div>
+                      <div class="info-row">
+                        <span class="info-label">Technologies</span>
+                        <span class="info-value" id="modalInfoTech"></span>
+                      </div>
+                      <div id="modalLinkWrap" class="mt-3" style="display:none;">
+                        <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-visit">
+                          <i class="bi bi-box-arrow-up-right"></i> Visit Live Website
+                        </a>
+                      </div>
+                    </div>
+                    <div class="project-detail-features mt-4">
+                      <h4>Key Features</h4>
+                      <ul id="modalFeatures" class="feature-list"></ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Project Detail Modal -->
 
       <!-- Testimonials Section -->
       <!-- <section id="testimonials" class="testimonials section light-background">
@@ -1560,7 +1705,7 @@
                   <div class="info-item d-flex mb-3">
                     <i class="bi bi-github me-3"></i>
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/mzeshann1"
                       target="_blank"
                       rel="noopener noreferrer"
                       >GitHub Profile</a
@@ -1570,7 +1715,7 @@
                   <div class="info-item d-flex mb-4">
                     <i class="bi bi-linkedin me-3"></i>
                     <a
-                      href="https://linkedin.com/"
+                      href="https://www.linkedin.com/in/muhammad-zeeshan-a40446200/"
                       target="_blank"
                       rel="noopener noreferrer"
                       >LinkedIn Profile</a
@@ -1664,13 +1809,13 @@
         </div>
         <div class="social-links d-flex justify-content-center">
           <a
-            href="https://github.com/"
+            href="https://github.com/mzeshann1"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="bi bi-github"></i
           ></a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/muhammad-zeeshan-a40446200/"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="bi bi-linkedin"></i
@@ -1682,6 +1827,17 @@
 
       </div>
     </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/923042463443"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float d-flex align-items-center justify-content-center"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
 
     <!-- Scroll Top -->
     <a

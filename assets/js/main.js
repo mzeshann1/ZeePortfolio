@@ -119,6 +119,50 @@
   });
 
   /**
+   * Project detail modal
+   */
+  document.querySelectorAll('.project-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var d = this.dataset;
+      document.getElementById('projectDetailModalLabel').innerHTML = d.title;
+      document.getElementById('modalCategory').textContent = d.category;
+      document.getElementById('modalHeroImg').src = d.img;
+      document.getElementById('modalHeroImg').alt = d.title;
+      document.getElementById('modalDesc').textContent = d.desc;
+      document.getElementById('modalInfoCategory').textContent = d.category;
+      document.getElementById('modalInfoTech').textContent = d.tech;
+
+      var mockupWrap = document.getElementById('modalMockupWrap');
+      if (d.mockup) {
+        document.getElementById('modalMockup').src = d.mockup;
+        mockupWrap.style.display = '';
+      } else {
+        mockupWrap.style.display = 'none';
+      }
+
+      var linkWrap = document.getElementById('modalLinkWrap');
+      if (d.link) {
+        document.getElementById('modalLink').href = d.link;
+        linkWrap.style.display = '';
+      } else {
+        linkWrap.style.display = 'none';
+      }
+
+      var featureList = document.getElementById('modalFeatures');
+      featureList.innerHTML = '';
+      if (d.features) {
+        d.features.split('|').forEach(function(f) {
+          var li = document.createElement('li');
+          li.innerHTML = '<i class="bi bi-check2-circle"></i> ' + f;
+          featureList.appendChild(li);
+        });
+      }
+
+      new bootstrap.Modal(document.getElementById('projectDetailModal')).show();
+    });
+  });
+
+  /**
    * Init isotope layout and filters
    */
   document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
